@@ -1,0 +1,48 @@
+@import url("../../../styles/base.css");
+
+.wrapper {
+  overflow-y: scroll;
+  display: flex;
+  margin: 0;
+
+  width:100%;
+  height: 100vh;
+  -webkit-box-orient: horizontal;
+  -o-box-orient: horizontal;
+
+  flex-direction: column;
+
+}
+
+.topbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  background: #48b5e9;
+
+  height: var(--topbar-height);
+  color: #fff;
+
+  section {
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    right: 0px;
+  }
+}
+
+.content {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+
+
+  flex: 1;
+  order: 1;
+
+}
